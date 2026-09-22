@@ -83,6 +83,42 @@
       text-decoration: underline;
     }
 
+    .section-heading {
+      font-size: 0.6875rem;
+      font-weight: 400;
+      color: #aaa;
+      margin-top: 32px;
+      margin-bottom: 16px;
+    }
+
+    .team-grid {
+      display: flex;
+      gap: 28px;
+    }
+
+    .team-avatar {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      width: 88px;
+    }
+
+    .team-avatar img {
+      width: 64px;
+      height: 64px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-bottom: 8px;
+      border: 1px solid #eee;
+    }
+
+    .team-avatar-label {
+      font-size: 0.75rem;
+      color: #555;
+      line-height: 1.4;
+    }
+
     footer {
       margin-top: 64px;
       padding-top: 24px;
@@ -127,14 +163,27 @@
       If you're interested in something, please dm me via
       <a href="https://www.linkedin.com/in/shota-sunohara/" target="_blank" rel="noopener noreferrer">LinkedIn</a>.
     </p>
+    <h2 class="section-heading">Product</h2>
     <p class="contact-note">
       <a href="https://sunoinc.github.io/peppa.games/" target="_blank" rel="noopener noreferrer">Peppa</a>
     </p>
+
+    <h2 class="section-heading">Team</h2>
+    <div class="team-grid">
+      <div class="team-avatar">
+        <img src="assets/team-hagure.jpg" alt="はぐれメタル" />
+        <span class="team-avatar-label">Leader who love DQV</span>
+      </div>
+      <div class="team-avatar">
+        <img src="assets/team-boo.jpg" alt="Boo" />
+        <span class="team-avatar-label">Boo</span>
+      </div>
+    </div>
   </div>
 
   <footer>
     <p>© 2026 sunosuno</p>
-    <p>MinamiAzabu, Minato, Tokyo</p>
+    <p>Hiroo, Minato, Tokyo</p>
   </footer>
 
 </body>
